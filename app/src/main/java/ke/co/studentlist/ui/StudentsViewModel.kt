@@ -1,4 +1,4 @@
-package ke.co.studentlist
+package ke.co.studentlist.ui
 
 import androidx.lifecycle.ViewModel
 

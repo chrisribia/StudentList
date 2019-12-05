@@ -1,7 +1,8 @@
-package ke.co.studentlist
+package ke.co.studentlist.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import ke.co.studentlist.R
 
 class MainActivity : AppCompatActivity() {
 
