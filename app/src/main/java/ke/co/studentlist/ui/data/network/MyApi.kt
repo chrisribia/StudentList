@@ -11,7 +11,7 @@ import retrofit2.http.GET
 interface MyApi {
 
     @GET("getStudents.php")
-    suspend fun getSell() : Response<StudentsResponse>
+    suspend fun getStudents() : Response<StudentsResponse>
 
     companion object{
         operator fun invoke(
