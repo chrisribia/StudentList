@@ -1,4 +1,4 @@
-package ke.co.studentlist.ui.data.db
+package ke.co.studentlist.ui.data.db.entity
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
