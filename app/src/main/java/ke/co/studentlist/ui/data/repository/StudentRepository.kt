@@ -11,7 +11,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import java.lang.Exception
 
-class SrudentRepository(
+class StudentRepository(
     private val api: MyApi,
     private val db: AppDatabase
 ) : SafeApiRequest() {

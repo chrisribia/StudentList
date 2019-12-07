@@ -1,4 +1,4 @@
-package ke.co.studentlist.ui
+package ke.co.studentlist.ui.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

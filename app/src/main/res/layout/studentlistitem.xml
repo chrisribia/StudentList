@@ -1,35 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<layout
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable
+            name="students"
+            type="ke.co.studentlist.ui.data.db.entity.Students" />
+    </data>
+<LinearLayout
     android:orientation="vertical"
-
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <LinearLayout
-        android:orientation="vertical"
-        android:padding="5dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        >
+    android:layout_height="wrap_content">
+
         <TextView
             android:orientation="vertical"
-             android:text="Name"
+             android:text="@{students.name}"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             />
 
         <TextView
             android:orientation="vertical"
-            android:text="Major"
+            android:text="@{students.major}"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             />
         <TextView
             android:orientation="vertical"
-            android:text="Registration Number"
+            android:text="@{students.reg_no}"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             />
 
-    </LinearLayout>
 
 </LinearLayout>
+</layout>

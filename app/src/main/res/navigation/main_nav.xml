@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/studentsFragment"
-        android:name="ke.co.studentlist.ui.StudentsFragment"
+        android:name="ke.co.studentlist.ui.ui.StudentsFragment"
         android:label="students_fragment"
         tools:layout="@layout/students_fragment" />
 </navigation>
