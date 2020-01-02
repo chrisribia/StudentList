@@ -23,7 +23,7 @@ interface MyApi {
                 .build()
             return Retrofit.Builder()
                 .client(okkHttpclient)
-                .baseUrl("http://192.168.0.26/recipe-Api/v1/")
+                .baseUrl("http://192.168.43.98/recipe-Api/v1/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build()
                 .create(MyApi::class.java)
