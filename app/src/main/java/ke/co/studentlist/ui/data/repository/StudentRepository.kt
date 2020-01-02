@@ -26,6 +26,7 @@ class StudentRepository(
 
     suspend fun fetchStudentsFromRoomDatabase() : LiveData<List<Students>>{
         return withContext(Dispatchers.IO){
+            fetchStudentsFromServer()
             db.getStudentDao().getStudents()
         }
     }

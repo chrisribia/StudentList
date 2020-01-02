@@ -6,7 +6,7 @@ import ke.co.studentlist.ui.data.db.entity.Students
 import com.xwray.groupie.databinding.BindableItem
 import ke.co.studentlist.R
 
-class studentitem(
+class StudentItem(
     private val students : Students)
     : BindableItem<StudentlistitemBinding>(){
     override fun getLayout() = R.layout.studentlistitem

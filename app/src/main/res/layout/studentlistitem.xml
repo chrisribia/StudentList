@@ -1,38 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
 
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:tools="http://schemas.android.com/tools">
 
     <data>
         <variable
             name="students"
             type="ke.co.studentlist.ui.data.db.entity.Students" />
     </data>
-<LinearLayout
-    android:orientation="vertical"
+<com.google.android.material.card.MaterialCardView
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
+    <LinearLayout
+        android:padding="12dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
         <TextView
-            android:orientation="vertical"
-             android:text="@{students.name}"
+             android:text="lll"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             />
 
         <TextView
-            android:orientation="vertical"
-            android:text="@{students.major}"
+            android:text="ppp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             />
         <TextView
-            android:orientation="vertical"
-            android:text="@{students.reg_no}"
+            android:text=" mmmm"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             />
 
-
-</LinearLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
 </layout>

@@ -47,15 +47,14 @@ class StudentsFragment : Fragment(), KodeinAware {
     }
 
 
-    private fun initRecyclerView(quoteItem: List<studentitem>) {
+    private fun initRecyclerView( dItem: List<StudentItem>) {
 
         val mAdapter = GroupAdapter<ViewHolder>().apply {
-            addAll(quoteItem)
+            addAll(dItem)
         }
 
-        mrecyclerview.apply {
+        recyclerview.apply {
             layoutManager = LinearLayoutManager(context)
-
             setHasFixedSize(true)
             adapter = mAdapter
         }
@@ -63,9 +62,9 @@ class StudentsFragment : Fragment(), KodeinAware {
 
     }
 
-    private fun List<Students>.toStudentItem() : List<studentitem>{
+    private fun List<Students>.toStudentItem() : List<StudentItem>{
         return this.map {
-            studentitem(it)
+            StudentItem(it)
         }
     }
 

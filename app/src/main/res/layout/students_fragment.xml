@@ -5,11 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.ui.StudentsFragment">
+
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/mrecyclerview"
-        tools:listitem="@layout/studentlistitem"
-        android:orientation="vertical"
+        android:id="@+id/recyclerview"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        tools:listitem="@layout/studentlistitem" />
 
 </FrameLayout>
